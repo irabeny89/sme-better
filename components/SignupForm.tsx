@@ -12,9 +12,10 @@ export default function SignupForm() {
             <p className="text-slate-100 mb-1">Email Address</p>
             <div>
               <input
+                type="email"
                 name="email"
                 placeholder="someone@email.com"
-                className="placeholder:text-stone-300 px-3 py-1 rounded w-full"
+                className="placeholder:text-stone-300 px-3 py-1 rounded w-full text-black"
               />
             </div>
           </label>
@@ -23,9 +24,10 @@ export default function SignupForm() {
             <p className="text-slate-100 mb-1">Enter Your Password</p>
             <div>
               <input
+                type="password"
                 name="password"
                 placeholder="Password"
-                className="placeholder:text-stone-300 px-3 py-1 rounded w-full"
+                className="placeholder:text-stone-300 px-3 py-1 rounded w-full text-black"
               />
             </div>
           </label>
