@@ -43,7 +43,12 @@ export default function SignupForm() {
         <br />
         <button className="bg-white rounded w-full py-2 text-slate-400">
           <div className="flex justify-center">
-            <Image src="/logo_google_g_icon.svg" width="25" height="25" />{" "}
+            <Image
+              src="/logo_google_g_icon.svg"
+              width="25"
+              height="25"
+              alt="google logo icon"
+            />{" "}
             <span className="ml-3 mb-1 align-middle">Log in with Google</span>
           </div>
         </button>

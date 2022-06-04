@@ -9,7 +9,12 @@ export default function Highlight() {
           Organize your customer information
         </h2>
         <div className="text-center">
-          <Image src="/illustration.jpg" width="350" height="300" />
+          <Image
+            src="/illustration.jpg"
+            width="350"
+            height="300"
+            alt="illustration"
+          />
         </div>
         <div className="flex space-x-2 justify-center mt-5">
           <BiCircle
