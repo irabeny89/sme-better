@@ -36,7 +36,7 @@ export default function SignupForm() {
         </form>
         <br />
         <p className="text-slate-300 text-center">
-          Don't have an account? <b className="text-white">Sign Up</b>
+          Don&apos;t have an account? <b className="text-white">Sign Up</b>
         </p>
         <br />
         <p className="text-center">Forgot password?</p>
