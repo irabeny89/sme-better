@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function SignupForm() {
   return (
-    <section className="text-white bg-blue-500 h-screen">
-      <div className="max-w-xs pt-12 mx-auto">
+    <section className="text-white bg-blue-500 h-full">
+      <div className="max-w-xs py-20 px-2 mx-auto">
         <h2 className="font-medium mb-11">SME Better</h2>
         <h3 className="font-medium">Log into your Business Manager</h3>
         <br />
@@ -44,7 +44,7 @@ export default function SignupForm() {
         <p className="text-center">Forgot password?</p>
         <br />
         <button className="bg-white rounded w-full py-2 text-slate-400">
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <Image
               src="/logo_google_g_icon.svg"
               width="25"
